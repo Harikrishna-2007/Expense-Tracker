@@ -1,0 +1,5 @@
+Here are the steps you will need to execute to build this project:
+
+1. Importing the necessary modules and libraries
+2. Connecting to the database and creating the GUI window
+3. Creating the database and data manipulation functions

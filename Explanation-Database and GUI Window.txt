@@ -1,0 +1,15 @@
+1. In this step, we will connect our Python script to the SQLite database. Here all the information will be stored and our GUI window.
+
+2. To connect to the database,We will create a connector instance using the sqlite.connector (<database name>) to create a database, activate it and perform functions in the database using the script.
+
+3. To create our GUI window, we will first create a Tk object that will become our main window. Then we will set its basic attributes and move onto placing components and widgets in it.
+
+4. Our first widget is the static text saying “Expense Tracker” (a Label widget) packed at the top of the window.
+
+5. Next, we have three Frame widgets (widgets containers inside a window) that will contain different aspects of our GUI window.
+
+6. The frame on the left side of the window contains Labels and Entry fields. Here the details about a new expense can be entered, or the details about an existing expense can be viewed. This frame also has two buttons, one that adds the expense to the database when pressed. The other can show how you read the expense, before you add it to the database.
+
+7. The frame on the bottom-right side of the window contains a Treeview object. This acts as a table where the data from the database tables is displayed.
+
+8. The frame on the top-right side of the window contains the buttons that can perform certain operations on the expense selected in the table, or the database as a whole such as editing the selected expense, converting it to words, delete it or delete the entire database.
