@@ -1,0 +1,81 @@
+# 💼 Project Proposal: Desktop Expense Tracker using Python and Tkinter
+
+## 🧩 Project Title
+**Expense Tracker – Desktop Application (Python + Tkinter)**
+
+---
+
+## 🎯 Objective
+
+To build a lightweight, user-friendly desktop application that allows users to easily track, manage, and analyze their daily expenses using a graphical user interface (GUI) built with Tkinter and data storage using SQLite.
+
+---
+
+## 🧠 Problem Statement
+
+In today’s fast-paced environment, individuals often struggle to manage personal finances and monitor daily expenses effectively. Mobile apps can be distracting or require internet connectivity and cloud accounts. There is a need for a **simple, offline, desktop-based** expense management system that:
+
+- Logs expenses by date, category, and amount
+- Stores data locally
+- Provides quick summary reports and analytics
+- Has an intuitive and easy-to-use GUI
+
+---
+
+## 🛠️ Proposed Solution
+
+This project will deliver a **Tkinter-based GUI application** with the following features:
+
+- **Add/Edit/Delete** expense entries
+- **Calendar widget** for date selection (using `tkcalendar`)
+- **Category dropdown** and description input
+- **Local SQLite database** to store expense records
+- **Treeview display** of expense logs
+- **Summary report** showing total expenses by category/date
+- **Pop-up alerts** for confirmations and errors
+
+---
+
+## 📦 Tech Stack
+
+| Component        | Technology           |
+|------------------|----------------------|
+| Programming Lang | Python               |
+| GUI Framework    | Tkinter              |
+| Database         | SQLite3              |
+| Date Picker      | tkcalendar           |
+| Styling          | ttk (Themed widgets) |
+
+---
+
+## 📈 Benefits
+
+- Works fully offline
+- No login or cloud required
+- Lightweight and portable
+- Easy for beginners to understand and extend
+- Encourages responsible financial tracking
+
+---
+
+## 📆 Timeline
+
+| Phase             | Description                             | Duration      |
+|------------------|-----------------------------------------|---------------|
+| 🧠 Planning       | Define features, design GUI layout      | 2 days        |
+| ⚙️ Development    | Build core features and database         | 5 days        |
+| 🧪 Testing        | Test all modules and handle exceptions  | 2 days        |
+| 🧹 Documentation | Create README and user instructions     | 1 day         |
+| 🚀 Deployment     | Final packaging & upload to GitHub      | 1 day         |
+
+---
+
+## 🔚 Conclusion
+
+This desktop-based Expense Tracker aims to provide a distraction-free, reliable, and practical solution to manage daily expenses locally. It is suitable for students, professionals, and anyone who prefers desktop tools for finance tracking.
+
+---
+
+## 🔗 Repository
+
+GitHub Repo: [Expense Tracker – Harikrishna](https://github.com/Harikrishna-2007/Expense-Tracker)
